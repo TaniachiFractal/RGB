@@ -10,7 +10,9 @@
         android:layout_height="wrap_content">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/redInput"
-            android:hint="red"
+            android:hint="@string/red"
+            android:background="@color/white"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
@@ -22,7 +24,9 @@
         android:layout_height="wrap_content">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/greenInput"
-            android:hint="green"
+            android:hint="@string/green"
+            android:background="@color/white"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
@@ -34,7 +38,9 @@
         android:layout_height="wrap_content">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/blueInput"
-            android:hint="blue"
+            android:hint="@string/blue"
+            android:background="@color/white"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
