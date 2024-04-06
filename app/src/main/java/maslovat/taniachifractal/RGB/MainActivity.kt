@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
             .create()
         dialog.show()
     }
-    /**Change color of the square on the screen and the color info*/
+    /**Change color of the screen and the color info*/
     private fun updateColor()
     {
         fld.colorWindow.setBackgroundColor(Color.rgb(red, green, blue))
